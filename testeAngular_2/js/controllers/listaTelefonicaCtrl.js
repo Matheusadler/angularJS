@@ -18,7 +18,18 @@ angular.module("learnJS").controller("listaTelefonicaCtrl", function ($scope, co
         });
     };
 
+    /*$scope.pegaId = function (contatos) {
+
+        var idListContatos = contatos.map(function (contato) {
+            return contato.id;
+        });
+        console.log(idListContatos);
+    };*/
+
+
     $scope.addContatos = function (contato) {
+        //pegaId(contatos);
+        contato.id = "";
         contatosAPI.addContatos(contato).then(function (response) {
             delete $scope.contato;
             $scope.contatoForm.$setPristine();

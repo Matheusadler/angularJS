@@ -6,7 +6,7 @@ var operadoras = [
     {nome: "Oi", codigo: 14, categoria: "Celular"},
     {nome: "Vivo", codigo: 15, categoria: "Celular"},
     {nome: "Claro", codigo: 25, categoria: "Celular"},
-    {nome: "Embratel", codigo: 07, categoria: "Fixo"},
+    {nome: "Embratel", codigo: 17, categoria: "Fixo"},
     {nome: "GVT", codigo: 39, categoria: "Fixo"},
     {nome: "Tim", codigo: 41, categoria: "Celular"}
 ];
@@ -42,9 +42,13 @@ app.get('/contatos', function (req, res) {
 });
 
 app.post('/contatos', function (req, res) {
-    var contato =req.body;
-    console.log(contato);
-    contatos.push(JSON.parse(contato));
+    var contato = JSON.parse(req.body);
+    var maxId = contatos.map(function (contato) {
+        return contato.id;
+    });
+    maxId = Math.max(...maxId);
+    contato.id = ++maxId;
+    contatos.push(contato);
     res.end();
 });
 

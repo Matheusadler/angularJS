@@ -4,6 +4,7 @@ angular.module("learnJS").service("contatosAPI", function ($http, config) {
     };
     
     this.addContatos = function (contato) {
+        //console.log(contato.id);
         return $http.post(config.baseUrl + "/contatos", contato);
     };
 
