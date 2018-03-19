@@ -45,9 +45,8 @@ app.post('/contatos', function (req, res) {
     var contato = JSON.parse(req.body);
     var maxId = contatos.map(function (contato) {
         return contato.id;
-    }).reduce(function (maxId, idContato) {
-        return Math.max(maxId, idContato)
     });
+    maxId = Math.max(...maxId);
     contato.id = ++maxId;
     contatos.push(contato);
     res.end();
