@@ -8,7 +8,7 @@ angular.module("learnJS").controller("listaTelefonicaCtrl", function ($scope, co
         contatosAPI.getContatos().then(function (response) {
             $scope.contatos = response.data;
         }).catch(function (data) {
-            $scope.message = "Aconteceu um problema: " + data;
+            $scope.message = "Não foi possível carregar os dados!";
         })
     };
 
