@@ -4,7 +4,7 @@ angular.module("learnJS").directive("uiAlert", function () {
        templateUrl: "js/view/alert.html",
        replace: true,
        scope:{
-            title: "@",
+            title: "=",
            message: "="
        }
    };
