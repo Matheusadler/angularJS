@@ -15,9 +15,23 @@
     <script src="js/filters/nameFilter.js"></script>
     <script src="js/directives/uiAlertDirective.js"></script>
     <script src="js/directives/uiDateDirective.js"></script>
+    <script src="js/directives/uiAccordionDirective.js"></script>
+
+
 </head>
 <body ng-controller="listaTelefonicaCtrl">
     <div class="jumbotron">
+        <ui-accordions>
+            <ui-accordion title="HOLOP">
+                Bom dia
+            </ui-accordion>
+
+            <ui-accordion title="WEEEBA">
+                Minha panela
+            </ui-accordion>
+        </ui-accordions>
+        <hr/>
+
         <h4>{{app}}</h4>
 
         <ui-alert title="title" message="message"></ui-alert>
