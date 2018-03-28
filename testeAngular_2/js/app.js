@@ -1,1 +1,1 @@
-angular.module("learnJS", []);
+angular.module("learnJS", ["ui"]);

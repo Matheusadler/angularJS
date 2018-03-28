@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/ui.css">
     <title>Learn AngulaJS</title>
     <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="modules/ui/ui.js"></script>
     <script src="js/app.js"></script>
     <script src="js/controllers/listaTelefonicaCtrl.js"></script>
     <script src="js/services/contatosAPIService.js"></script>
@@ -15,19 +16,22 @@
     <script src="js/filters/nameFilter.js"></script>
     <script src="js/directives/uiAlertDirective.js"></script>
     <script src="js/directives/uiDateDirective.js"></script>
-    <script src="js/directives/uiAccordionDirective.js"></script>
 
 
 </head>
 <body ng-controller="listaTelefonicaCtrl">
     <div class="jumbotron">
         <ui-accordions>
-            <ui-accordion title="HOLOP">
-                Bom dia
+            <ui-accordion title="Accordion 1">
+                a
             </ui-accordion>
 
-            <ui-accordion title="WEEEBA">
-                Minha panela
+            <ui-accordion title="accordion 2">
+                b
+            </ui-accordion>
+
+            <ui-accordion title="accordion 3">
+                c
             </ui-accordion>
         </ui-accordions>
         <hr/>
