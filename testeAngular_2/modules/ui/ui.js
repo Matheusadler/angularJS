@@ -43,13 +43,13 @@ angular.module("ui").directive("uiAccordion", function () {
         link: function (scope, element, attrs, ctrl) {
             ctrl.registerAccordion(scope);
             scope.isOpened = false;
-                scope.open = function () {
-                    if (scope.isOpened == true){
-                        ctrl.closeAll();
-                    } else if (scope.isOpened == false){
-                        ctrl.closeAll();
-                        scope.isOpened=true;
-                    }
+            scope.open = function () {
+                if (scope.isOpened == true){
+                    ctrl.closeAll();
+                } else if (scope.isOpened == false){
+                    ctrl.closeAll();
+                    scope.isOpened=true;
+                }
             };
         }
     };
