@@ -6,6 +6,17 @@ angular.module("ui").run(function ($templateCache) {
         "<br/>");
 });
 
+angular.module("ui").run(function ($templateCache) {
+    $templateCache.put("js/view/alert.html", "<div class=\"ui-alert\">\n" +
+        "    <div class=\"ui-alert-title\">\n" +
+        "        {{title}}\n" +
+        "    </div>\n" +
+        "    <div class=\"ui-alert-message\">\n" +
+        "        {{message}}\n" +
+        "    </div>\n" +
+        "</div>");
+});
+
 angular.module("ui").directive("uiAccordions", function () {
     return{
         controller: function ($scope, $element, $attrs) {
@@ -17,7 +28,7 @@ angular.module("ui").directive("uiAccordions", function () {
                 accordions.forEach(function (accordion){
                     accordion.isOpened = false;
                 });
-            }
+            };
         }
     };
 });
@@ -31,12 +42,16 @@ angular.module("ui").directive("uiAccordion", function () {
         require: "^^uiAccordions",
         link: function (scope, element, attrs, ctrl) {
             ctrl.registerAccordion(scope);
-            scope.open = function () {
-                ctrl.closeAll();
-                scope.isOpened=true;
-            }
+            scope.isOpened = false;
+                scope.open = function () {
+                    if (scope.isOpened == true){
+                        ctrl.closeAll();
+                    } else if (scope.isOpened == false){
+                        ctrl.closeAll();
+                        scope.isOpened=true;
+                    }
+            };
         }
-
     };
 });
 angular.module("ui").directive("uiDate", function () {
@@ -54,6 +69,18 @@ angular.module("ui").directive("uiDate", function () {
                 ctrl.$setViewValue(_formatDate(ctrl.$viewValue));
                 ctrl.$render();
             });
+        }
+    };
+});
+
+angular.module("ui").directive("uiAlert", function () {
+    return{
+        restrict: "E",
+        templateUrl: "js/view/alert.html",
+        replace: true,
+        scope:{
+            title: "=",
+            message: "="
         }
     };
 });
