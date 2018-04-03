@@ -1,1 +1,1 @@
-angular.module("learnJS", ["ui"]);
+angular.module("learnJS", ["ui", "ngRoute"]);

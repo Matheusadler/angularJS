@@ -6,91 +6,23 @@
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <link rel="stylesheet" type="text/css" href="css/ui.css">
     <title>Learn AngulaJS</title>
-    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-route.js"></script>
     <script src="modules/ui/ui.js"></script>
     <script src="js/app.js"></script>
     <script src="js/controllers/listaTelefonicaCtrl.js"></script>
+    <script src="js/controllers/novoContatoCtrl.js"></script>
     <script src="js/services/contatosAPIService.js"></script>
     <script src="js/services/operadorasAPIService.js"></script>
+    <script src="js/config/routeConfig.js"></script>
     <script src="js/value/configValue.js"></script>
     <script src="js/filters/nameFilter.js"></script>
     <script src="js/directives/uiAlertDirective.js"></script>
 
 
 </head>
-<body ng-controller="listaTelefonicaCtrl">
-    <div class="jumbotron">
-        <ui-accordions>
-            <ui-accordion title="Accordion 1">
-                a
-            </ui-accordion>
-
-            <ui-accordion title="accordion 2">
-                b
-            </ui-accordion>
-
-            <ui-accordion title="accordion 3">
-                c
-            </ui-accordion>
-        </ui-accordions>
-        <hr/>
-
-        <h4>{{app}}</h4>
-
-        <ui-alert title="title" message="message"></ui-alert>
-
-        <input class="form-control" type="text" ng-model="Busca" placeholder="O que você está buscando?">
-        <table ng-show="contatos.length > 0" class="table">
-            <tr>
-                <th></th>
-                <th><a href="" ng-click="ordenarPor('nome')">Nome</a></th>
-                <th>Telefone</th>
-                <th>Operadora/Código</th>
-                <th>Categoria</th>
-                <th>Data de aniversário</th>
-            </tr>
-            <tr ng-class="{'selecionado negrito': contato.selecionado}" ng-repeat="contato in contatos | filter: Busca | orderBy: criterioDeOrdenacao:direcaoDaOrdenacao">
-                <td><input type="checkbox" ng-model="contato.selecionado"/></td>
-                <td>{{contato.nome}}</td>
-                <td>{{contato.telefone}}</td>
-                <td>{{contato.operadoras.nome + "/" + contato.operadoras.codigo}}</td>
-                <td>{{contato.operadoras.categoria}}</td>
-                <td>{{contato.data | date: 'dd/MM'}}</td>
-            </tr>
-        </table>
-        <hr/>
-        <form name="contatoForm">
-            <input class="form-control" type="text" title="Preencha este campo com o nome." ng-model="contato.nome" name="nome" placeholder="Nome" ng-required="true">
-            <input class="form-control" type="text" title="Preencha este campo com o telefone."ng-model="contato.telefone" name="telefone" placeholder="Telefone" ng-required="true" ng-pattern="/^\d{4,5}-\d{4}$/">
-
-            <input class="form-control" type="text" ng-model="contato.data" name="data" placeholder="Data de aniversário" title="Preencha este campo com um formato de data dd/MM." ui-date/>
-
-
-        </form>
-            <select class="form-control" ng-model="contato.operadoras" ng-options="operadora.nome for operadora in operadoras | orderBy: 'nome'">
-                <option value="">Selecione uma operadora</option>
-            </select>
-        <hr/>
-
-        <div ng-show="contatoForm.nome.$invalid && contatoForm.nome.$dirty" class="alert alert-danger">
-            Por favor, preencha o campo nome!
-        </div>
-        <div ng-show="contatoForm.telefone.$error.required && contatoForm.telefone.$dirty" class="alert alert-danger">
-            Por favor, preencha o campo telefone!
-        </div>
-        <div ng-show="contatoForm.telefone.$error.pattern" class="alert alert-danger">
-            Por favor, o campo telefone deve ter o formato DDDDD-DDDD!
-        </div>
-        <div ng-show="contatoForm.data.$error.required && contatoForm.data.$dirty" class="alert alert-danger">
-            Por favor, preencha o campo data de aniversário!
-        </div>
-        <div ng-show="contatoForm.data.$error.pattern" class="alert alert-danger">
-            Por favor, o campo data de aniversário deve ter o formato dd/MM!
-        </div>
-            <button class="btn btn-primary" ng-click="addContatos(contato)" ng-disabled="contatoForm.$invalid">Adicionar Contato</button>
-            <button class="btn btn-danger" ng-click="delContatos(contatos)" ng-disabled="!contatoSelecionado(contatos)">Deletar Contato</button>
-            <!--<input class="form-control-range" type="submit" ng-click="addContatos(contato)" value="Adicionar">-->
-    </div>
+<body>
+<ng-view></ng-view>
 <div class="text-center">Criado por Adler</div>
 </body>
 </html>

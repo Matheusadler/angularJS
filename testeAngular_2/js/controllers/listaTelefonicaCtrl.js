@@ -19,17 +19,6 @@ angular.module("learnJS").controller("listaTelefonicaCtrl", function ($scope, co
         });
     };
 
-
-    $scope.addContatos = function (contato) {
-        //pegaId(contatos);
-        contato.id = "";
-        contatosAPI.addContatos(contato).then(function (response) {
-            delete $scope.contato;
-            $scope.contatoForm.$setPristine();
-            carregarContatos();
-        });
-    };
-
     $scope.delContatos = function (contatos) {
 
         var idContatos = contatos.filter(function (contato) {
