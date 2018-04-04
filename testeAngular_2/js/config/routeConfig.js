@@ -7,5 +7,8 @@ angular.module("learnJS").config(function ($routeProvider) {
         templateUrl: "js/view/novoContato.html",
         controller: "novoContatoCtrl"
     });
+    $routeProvider.when("/error", {
+        templateUrl: "js/view/error.html"
+    });
     $routeProvider.otherwise({redirectTo: "/contatos"});
 });
