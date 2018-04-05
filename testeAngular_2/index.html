@@ -19,12 +19,22 @@
     <script src="js/filters/nameFilter.js"></script>
     <script src="js/directives/uiAlertDirective.js"></script>
     <script src="js/interceptors/timestampInterceptors.js"></script>
-    <script src="js/interceptors/errorInterceptors.js"></script>
+    <script src="js/interceptors/errorInterceptor.js"></script>
+    <script src="js/interceptors/loadingInterceptor.js"></script>
     <script src="js/config/interceptorsConfig.js"></script>
+    <script src="js/controllers/detalhesContatoCtrl.js"></script>
+
 
 </head>
 <body>
-<ng-view></ng-view>
-<div class="text-center">Criado por Adler</div>
+<div class="jumbotron" ng-show="loading">
+    <div class="circle"></div>
+    </br>
+    <h5>Carregando, por favor aguarde..</h5>
+</div>
+<div ng-hide="loading">
+    <ng-view></ng-view>
+    <div class="jumbotron" class="text-center">Criado por Adler</div>
+</div>
 </body>
 </html>

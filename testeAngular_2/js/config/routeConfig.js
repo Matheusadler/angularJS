@@ -10,5 +10,15 @@ angular.module("learnJS").config(function ($routeProvider) {
     $routeProvider.when("/error", {
         templateUrl: "js/view/error.html"
     });
+    $routeProvider.when("/detalheContato/:id", {
+        templateUrl: "js/view/detalheContato.html",
+        controller: "detalhesContatoCtrl",
+        resolve:{
+            contato: function (contatosAPI, $route) {
+                return contatosAPI.getContatosId($route.current.params.id)
+            }
+        }
+    
+    });
     $routeProvider.otherwise({redirectTo: "/contatos"});
 });

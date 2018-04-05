@@ -21,7 +21,7 @@
     margin-right: auto;
 }
 .selecionado{
-    background-color: #c69500;
+    background-color: white;
 }
 .negrito{
     font-weight: bold;
@@ -36,4 +36,47 @@
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+body {
+    background-color: dodgerblue;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+    color: #FFF;
+    font-size: 40pt;
+}
+
+table {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 50px;
+}
+
+td{
+    width: 80px;
+    height: 80px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    border: solid 10px rgba(255, 255, 255, 0.2);
+    border-top-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    animation: spin 1s infinite linear;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
 }
