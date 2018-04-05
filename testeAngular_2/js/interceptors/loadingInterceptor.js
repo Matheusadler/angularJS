@@ -16,7 +16,7 @@ angular.module("learnJS").factory("loadingInterceptor", function ($q, $rootScope
         },
         responseError: function (rejection) {
             $rootScope.loading = false;
-            return$q.reject(rejection);
+            return $q.reject(rejection);
         }
     }
 });
