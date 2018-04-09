@@ -10,6 +10,7 @@
         <tr>
             <th></th>
             <th><a href="" ng-click="ordenarPor('nome')">Nome</a></th>
+            <th>CPF/CNJP</th>
             <th>Telefone</th>
             <th>Operadora/Código</th>
             <th>Categoria</th>
@@ -18,6 +19,7 @@
         <tr ng-class="{'selecionado negrito': contato.selecionado}" ng-repeat="contato in contatos | filter: Busca | orderBy: criterioDeOrdenacao:direcaoDaOrdenacao">
             <td><input type="checkbox" ng-model="contato.selecionado"/></td>
             <td><a href="#!/detalheContato/{{contato.id}}">{{contato.nome}}</a></td>
+            <td>{{contato.tipo}}</td>
             <td>{{contato.telefone}}</td>
             <td>{{contato.operadoras.nome + "/" + contato.operadoras.codigo}}</td>
             <td>{{contato.operadoras.categoria}}</td>

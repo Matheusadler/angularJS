@@ -33,7 +33,9 @@ angular.module("learnJS").controller("listaTelefonicaCtrl", function ($scope, co
             });
         });
     };
+    var counter = 0;
     $scope.contatoSelecionado = function (contatos) {
+        console.log(counter++);
         return contatos.some(function (contato) {
             return contato.selecionado;
         });
