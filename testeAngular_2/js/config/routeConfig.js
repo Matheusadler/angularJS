@@ -1,11 +1,22 @@
 angular.module("learnJS").config(function ($routeProvider) {
-    $routeProvider.when("/contatos", {
-        templateUrl: "js/view/contatos.html",
-        controller: "listaTelefonicaCtrl"
+    $routeProvider.when("/telaInicial", {
+        templateUrl: "js/view/telaInicial.html"
     });
-    $routeProvider.when("/novoContato", {
-        templateUrl: "js/view/novoContato.html",
-        controller: "novoContatoCtrl"
+    $routeProvider.when("/contatosFisico", {
+        templateUrl: "js/view/contatosFisico.html",
+        controller: "listaTelefonicaFisicoCtrl"
+    });
+    $routeProvider.when("/contatosJuridico", {
+        templateUrl: "js/view/contatosJuridico.html",
+        controller: "listaTelefonicaJuridicoCtrl"
+    });
+    $routeProvider.when("/novoContatoFisico", {
+        templateUrl: "js/view/novoContatoFisico.html",
+        controller: "novoContatoFisicoCtrl"
+    });
+    $routeProvider.when("/novoContatoJuridico", {
+        templateUrl: "js/view/novoContatoJuridico.html",
+        controller: "novoContatoJuridicoCtrl"
     });
     $routeProvider.when("/error", {
         templateUrl: "js/view/error.html"
@@ -20,5 +31,5 @@ angular.module("learnJS").config(function ($routeProvider) {
         }
     
     });
-    $routeProvider.otherwise({redirectTo: "/contatos"});
+    $routeProvider.otherwise({redirectTo: "/contatosFisico"});
 });

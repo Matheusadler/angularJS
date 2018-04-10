@@ -1,11 +1,11 @@
 
-angular.module("learnJS").controller("listaTelefonicaCtrl", function ($scope, contatosAPI, operadorasAPI) {
-    $scope.app="Lista Telefônica";
+angular.module("learnJS").controller("listaTelefonicaJuridicoCtrl", function ($scope, contatosJuridicoAPI, operadorasAPI) {
+    $scope.app = "Lista Telefônica";
     $scope.contatos = [];
     $scope.operadoras = [];
 
     var carregarContatos = function () {
-        contatosAPI.getContatos().then(function (response) {
+        contatosJuridicoAPI.getContatos().then(function (response) {
             $scope.contatos = response.data;
         }).catch(function (data) {
             $scope.title = "Ops! Aconteceu um problema!";
@@ -27,7 +27,7 @@ angular.module("learnJS").controller("listaTelefonicaCtrl", function ($scope, co
             return contato.id;
         });
 
-        contatosAPI.delContatos(idContatos).then(function (response) {
+        contatosJuridicoAPI.delContatos(idContatos).then(function (response) {
             $scope.contatos = $scope.contatos.filter(function (contato) {
                 return !idContatos.includes(contato.id);
             });

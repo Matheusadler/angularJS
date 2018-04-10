@@ -1,5 +1,5 @@
 
-angular.module("learnJS").controller("novoContatoCtrl", function ($scope, contatosAPI, operadorasAPI, $location) {
+angular.module("learnJS").controller("novoContatoFisicoCtrl", function ($scope, contatosFisicoAPI, operadorasAPI, $location) {
     var carregarOperadoras = function () {
         operadorasAPI.getOperadoras().then(function (response) {
             $scope.operadoras = response.data;
@@ -9,10 +9,10 @@ angular.module("learnJS").controller("novoContatoCtrl", function ($scope, contat
     $scope.addContatos = function (contato) {
         //pegaId(contatos);
         contato.id = "";
-        contatosAPI.addContatos(contato).then(function (response) {
+        contatosFisicoAPI.addContatos(contato).then(function (response) {
             delete $scope.contato;
             $scope.contatoForm.$setPristine();
-            $location.path("/contatos");
+            $location.path("/contatosFisico");
         });
     };
     carregarOperadoras();

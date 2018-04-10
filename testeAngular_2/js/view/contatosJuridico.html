@@ -9,27 +9,25 @@
     <table ng-show="contatos.length > 0" class="table">
         <tr>
             <th></th>
-            <th><a href="" ng-click="ordenarPor('nome')">Nome</a></th>
-            <th>CPF/CNJP</th>
+            <th><a href="" ng-click="ordenarPor('nome')">Nome Fantasia</a></th>
+            <th>CNJP</th>
             <th>Telefone</th>
             <th>Operadora/Código</th>
             <th>Categoria</th>
-            <th>Data de aniversário</th>
         </tr>
         <tr ng-class="{'selecionado negrito': contato.selecionado}" ng-repeat="contato in contatos | filter: Busca | orderBy: criterioDeOrdenacao:direcaoDaOrdenacao">
             <td><input type="checkbox" ng-model="contato.selecionado"/></td>
             <td><a href="#!/detalheContato/{{contato.id}}">{{contato.nome}}</a></td>
-            <td>{{contato.tipo}}</td>
+            <td>{{contato.cnpj}}</td>
             <td>{{contato.telefone}}</td>
             <td>{{contato.operadoras.nome + "/" + contato.operadoras.codigo}}</td>
             <td>{{contato.operadoras.categoria}}</td>
-            <td>{{contato.data | date: 'dd/MM'}}</td>
         </tr>
     </table>
     <hr/>
     <ui-accordions>
         <ui-accordion title="Opções">
-            <a class="btn btn-primary btn-block" href="#!/novoContato">Novo Contato</a>
+            <a class="btn btn-primary btn-block" href="#!/novoContatoJuridico">Novo Contato</a>
             <button class="btn btn-danger" ng-click="delContatos(contatos)" ng-disabled="!contatoSelecionado(contatos)">Deletar Contato</button>
         </ui-accordion>
     </ui-accordions>

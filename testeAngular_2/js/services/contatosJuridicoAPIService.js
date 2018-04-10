@@ -1,10 +1,10 @@
-angular.module("learnJS").service("contatosAPI", function ($http, config) {
+angular.module("learnJS").service("contatosJuridicoAPI", function ($http, config) {
     this.getContatos = function () {
-        return $http.get(config.baseUrl + "/contatos");
+        return $http.get(config.baseUrl + "/contatosJuridico");
     };
 
     this.getContatosId = function (id) {
-        return $http.get(config.baseUrl + "/contatos").then(function (response) {
+        return $http.get(config.baseUrl + "/contatosJuridico").then(function (response) {
             return response.data
         }).then(function (contatos) {
             return contatos.reduce(function (contatoReal, contato) {
@@ -15,13 +15,13 @@ angular.module("learnJS").service("contatosAPI", function ($http, config) {
             })
         });
     };
-    
+
     this.addContatos = function (contato) {
         //console.log(contato.id);
-        return $http.post(config.baseUrl + "/contatos", contato);
+        return $http.post(config.baseUrl + "/contatosJuridico", contato);
     };
 
     this.delContatos = function (ids) {
-        return $http.delete(config.baseUrl + "/contatos", {data: ids});
+        return $http.delete(config.baseUrl + "/contatosJuridico", {data: ids});
     };
 });

@@ -11,7 +11,7 @@ http.createServer(function (req, res) {
                 '<title>Learn AngulaJS</title>' +
                 '<script src="../node_modules/angular/angular.min.js"></script>' +
                 '<script src="js/app.js"></script>' +
-                '<script src="js/controllers/listaTelefonicaCtrl.js"></script>' +
+                '<script src="js/controllers/listaTelefonicaFisicoCtrl.js"></script>' +
             '</head>' +
             '<body ng-controller="listaTelefonicaCtrl">' +
                 '<div class="jumbotron">' +
