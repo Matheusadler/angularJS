@@ -1,1 +1,1 @@
-angular.module("learnJS", ["ui", "ngRoute"]);
+angular.module("learnJS", ["ui", "ngRoute", "ui.utils.masks"]);

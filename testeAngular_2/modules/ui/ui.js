@@ -54,14 +54,17 @@ angular.module("ui").directive("uiAccordion", function () {
         }
     };
 });
+/*
 angular.module("ui").directive("uiDate", function () {
     return{
         require: "ngModel",
         link: function (scope, element, attrs, ctrl) {
             var _formatDate = function (date) {
-                date = date.replace(/[^0-9]+/g, "");
-                if (date.length > 2){
-                    date = date.substring(0,2) + "/" + date.substring(2, 4);
+                if (date){
+                    date = date.replace(/[^0-9]+/g, "");
+                    if (date.length > 2){
+                        date = date.substring(0,2) + "/" + date.substring(2, 4);
+                    }
                 }
                 return date;
             };
@@ -72,7 +75,7 @@ angular.module("ui").directive("uiDate", function () {
         }
     };
 });
-
+*/
 angular.module("ui").directive("uiAlert", function () {
     return{
         restrict: "E",

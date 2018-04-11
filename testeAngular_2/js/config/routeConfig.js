@@ -1,6 +1,7 @@
 angular.module("learnJS").config(function ($routeProvider) {
     $routeProvider.when("/telaInicial", {
-        templateUrl: "js/view/telaInicial.html"
+        templateUrl: "js/view/telaInicial.html",
+        controller: "appCtrl"
     });
     $routeProvider.when("/contatosFisico", {
         templateUrl: "js/view/contatosFisico.html",
@@ -21,15 +22,25 @@ angular.module("learnJS").config(function ($routeProvider) {
     $routeProvider.when("/error", {
         templateUrl: "js/view/error.html"
     });
-    $routeProvider.when("/detalheContato/:id", {
-        templateUrl: "js/view/detalheContato.html",
-        controller: "detalhesContatoCtrl",
+    $routeProvider.when("/detalheContatoFisico/:id", {
+        templateUrl: "js/view/detalheContatoFisico.html",
+        controller: "detalhesContatoFisicoCtrl",
         resolve:{
-            contato: function (contatosAPI, $route) {
-                return contatosAPI.getContatosId($route.current.params.id)
+            contato: function (contatosFisicoAPI, $route) {
+                return contatosFisicoAPI.getContatosId($route.current.params.id)
             }
         }
     
     });
-    $routeProvider.otherwise({redirectTo: "/contatosFisico"});
+    $routeProvider.when("/detalheContatoJuridico/:id", {
+        templateUrl: "js/view/detalheContatoJuridico.html",
+        controller: "detalhesContatoJuridicoCtrl",
+        resolve:{
+            contato: function (contatosJuridicoAPI, $route) {
+                return contatosJuridicoAPI.getContatosId($route.current.params.id)
+            }
+        }
+
+    });
+    $routeProvider.otherwise({redirectTo: "/telaInicial"});
 });

@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b49c4b67-4d1e-480b-bc87-e42d38442c8e" name="Default" comment="" />
+    <list default="true" id="b49c4b67-4d1e-480b-bc87-e42d38442c8e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/testeAngular_2/js/controllers/appCtrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testeAngular_2/js/controllers/detalhesContatoJuridicoCtrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testeAngular_2/js/view/detalheContatoJuridico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/js/config/routeConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/js/config/routeConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/js/controllers/detalhesContatoCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/js/controllers/detalhesContatoFisicoCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaFisicoCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaFisicoCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaJuridicoCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaJuridicoCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/js/view/contatosFisico.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/js/view/contatosFisico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/js/view/contatosJuridico.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/js/view/contatosJuridico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/js/view/detalheContato.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/js/view/detalheContatoFisico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/js/view/novoContatoFisico.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/js/view/novoContatoFisico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/js/view/novoContatoJuridico.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/js/view/novoContatoJuridico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/js/view/telaInicial.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/js/view/telaInicial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeAngular_2/modules/ui/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/testeAngular_2/modules/ui/ui.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,82 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contatosAPIService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/services/contatosAPIService.js">
+      <file leaf-file-name="novoContatoFisico.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/novoContatoFisico.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="126">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configValue.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/value/configValue.js">
+      <file leaf-file-name="timestampInterceptors.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/interceptors/timestampInterceptors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listaTelefonicaCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="operadorasAPIService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/services/operadorasAPIService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="74" lean-forward="false" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nodeJS/http.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodeJS/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-296">
-              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodeJS/page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-              <folding />
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -97,9 +55,67 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testeAngular_2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="31" column="72" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="72" />
-              <folding />
+            <state relative-caret-position="144">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="63" lean-forward="true" selection-start-column="63" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="telaInicial.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/telaInicial.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cep.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeAngular_2/lib/angular-input-masks/src/br/cep/cep.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ui.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeAngular_2/modules/ui/ui.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-126">
+              <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="novoContatoFisicoCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/controllers/novoContatoFisicoCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detalheContatoFisico.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/detalheContatoFisico.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="novoContatoJuridico.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/novoContatoJuridico.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -118,6 +134,8 @@
       <find>name</find>
       <find>http\.createServer\(function \(req\, res\) \{\n    res\.setHeader\(\'Access\-Control\-Allow\-Origin\'\, \'\*\'\)\;\n    res\.setHeader\(\'Access\-Control\-Allow\-Headers\'\, \'Content\-Type\'\)\;\n    console\.log\(req\.body\)\;\n    request\.on\(\'error\'\, \(err\) \=\&gt; \{     console\.error\(err\)\;   \}\)\.on\(\'data\'\, \(chunk\) \=\&gt; \{     body\.push\(chunk\)\;   \}\)\.on\(\'end\'\, \(\) \=\&gt; \{     body \= Buffer\.concat\(body\)\.toString\(\)\;     \/\/ At this point\, we have the headers\, method\, url and body\, and can now     \/\/ do whatever we need to in order to respond to this request\.   \}\)\;\n    if\(req\.url \=\=\= \'\/operadoras\'\) res\.write\(JSON\.stringify\(operadoras\)\)\;\n    if\(req\.url \=\=\= \'\/contatos\'\) res\.write\(JSON\.stringify\(contatos\)\)\;\n    res\.end\(\)\;\n\}\)\.listen\(3412\)\;</find>
       <find>selecionado</find>
+      <find>contatos</find>
+      <find>cons</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -126,43 +144,63 @@
       <dir>$PROJECT_DIR$/testeAngular</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testeAngular/angular.min.js" />
-        <option value="/AngularJS Fragment (helloWorld-angular.html:947).js" />
-        <option value="$PROJECT_DIR$/testeAngular/helloWorld-angular.html" />
-        <option value="$PROJECT_DIR$/testeAngular_2/AngularJS_backend.html" />
-        <option value="$PROJECT_DIR$/testeAngular_2/learnJS.html" />
-        <option value="$PROJECT_DIR$/testeAngular_2/page.js" />
-        <option value="$PROJECT_DIR$/testeAngular_2/router.js" />
-        <option value="$PROJECT_DIR$/testeAngular_2/http.js" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/css/app.css" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/css/ui.css" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/config/routeConfig.js" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/config/serialGeneratorConfig.js" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/controllers/detalhesContatoCtrl.js" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/controllers/listaTelefonicaCtrl.js" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/controllers/novoContatoCtrl.js" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/directives/uiAlertDirective.js" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/directives/uiDateDirective.js" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/filters/ellipsisFilter.js" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/filters/nameFilter.js" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/services/contatosAPIService.js" />
-        <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/services/operadorasAPIService.js" />
         <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/value/configValue.js" />
         <option value="$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/app.js" />
         <option value="$PROJECT_DIR$/nodeJS/page.js" />
-        <option value="$PROJECT_DIR$/testeAngular_2/css/app.css" />
-        <option value="$PROJECT_DIR$/testeAngular_2/js/app.js" />
         <option value="$PROJECT_DIR$/testeAngular_2/js/value/configValue.js" />
         <option value="$PROJECT_DIR$/testeAngular_2/js/services/operadorasAPIService.js" />
         <option value="$PROJECT_DIR$/testeAngular_2/js/filters/nameFilter.js" />
-        <option value="$PROJECT_DIR$/testeAngular_2/index.html" />
         <option value="$PROJECT_DIR$/nodeJS/router.js" />
-        <option value="$PROJECT_DIR$/testeAngular_2/js/services/contatosAPIService.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/directives/uiAccordionDirective.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/directives/uiDateDirective.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/directives/uiAlert.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/directives/uiAlertDirective.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/accordion.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/alert.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/interceptors/timestampInterceptors.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/error.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/interceptors/errorInterceptors.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/interceptors/errorInterceptor.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/detalhesContato" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/detalhesContato.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/controllers/detalhesContatoCtrl.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/detalheContato.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/css/app.css" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/interceptors/loadingInterceptor.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/contatos.html" />
         <option value="$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaCtrl.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/config/interceptorsConfig.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/novoContato.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/services/contatosAPIService.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/css/ui.css" />
         <option value="$PROJECT_DIR$/nodeJS/http.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/services/contatosJuridicoAPI.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/services/contatosFisicoAPIService.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/controllers/novoContatoCtrl.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/controllers/novoContatoFisicoCtrl.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/controllers/novoContatoJuridicoCtrl.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/controllers/appCtrl.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/telaInicial.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/controllers/detalhesContatoFisicoCtrl.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/controllers/detalhesContatoJuridicoCtrl.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaFisicoCtrl.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/contatosFisico.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaJuridicoCtrl.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/detalheContatoFisico.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/config/routeConfig.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/detalheContatoJuridico.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/contatosJuridico.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/index.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/app.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/novoContatoJuridico.html" />
+        <option value="$PROJECT_DIR$/testeAngular_2/modules/ui/ui.js" />
+        <option value="$PROJECT_DIR$/testeAngular_2/js/view/novoContatoFisico.html" />
       </list>
     </option>
   </component>
@@ -183,29 +221,23 @@
     <option name="width" value="939" />
     <option name="height" value="732" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
               <item name="projeto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
@@ -221,6 +253,12 @@
               <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
               <item name="projeto" type="462c0819:PsiDirectoryNode" />
               <item name="testeAngular_2" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="testeAngular_2" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,7 +266,28 @@
               <item name="projeto" type="462c0819:PsiDirectoryNode" />
               <item name="testeAngular_2" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="testeAngular_2" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="testeAngular_2" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="testeAngular_2" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
@@ -244,21 +303,54 @@
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="value" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="testeAngular_2" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="testeAngular_2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="testeAngular_2" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projeto" type="462c0819:PsiDirectoryNode" />
+              <item name="testeAngular_2" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/youtube-master/AngularJS_14_Single_Page_Application" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testeAngular_2/modules/ui" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testeAngular_2/lib" />
+      <recent name="$PROJECT_DIR$/testeAngular_2/modules/ui" />
       <recent name="/media/thor/Matheus/Matheus/AngularJS" />
     </key>
   </component>
@@ -274,8 +366,13 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="RunManager">
+    <configuration name="detalheContatoFisico.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/projeto/testeAngular_2/js/view/detalheContatoFisico.html" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.detalheContatoFisico.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -303,35 +400,54 @@
       <workItem from="1520940165090" duration="11352000" />
       <workItem from="1521030400598" duration="8164000" />
       <workItem from="1521113292039" duration="7537000" />
-      <workItem from="1521200745498" duration="5882000" />
+      <workItem from="1521200745498" duration="6327000" />
+      <workItem from="1521458382117" duration="11092000" />
+      <workItem from="1521546163287" duration="3594000" />
+      <workItem from="1521636655727" duration="1301000" />
+      <workItem from="1521718487033" duration="6672000" />
+      <workItem from="1521805145107" duration="8189000" />
+      <workItem from="1522069050879" duration="6408000" />
+      <workItem from="1522150373535" duration="9526000" />
+      <workItem from="1522161554375" duration="249000" />
+      <workItem from="1522237498345" duration="3011000" />
+      <workItem from="1522668048971" duration="9986000" />
+      <workItem from="1522758631024" duration="7198000" />
+      <workItem from="1522841156063" duration="3919000" />
+      <workItem from="1522848807676" duration="3196000" />
+      <workItem from="1522927306924" duration="10410000" />
+      <workItem from="1523018262637" duration="2596000" />
+      <workItem from="1523272195846" duration="1480000" />
+      <workItem from="1523281499833" duration="2389000" />
+      <workItem from="1523360313870" duration="12479000" />
+      <workItem from="1523445311692" duration="10239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93460000" />
+    <option name="totallyTimeSpent" value="207839000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="16" width="961" height="780" extended-state="6" />
+    <frame x="64" y="-11" width="961" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24400418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31437126" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24400418" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50782067" side_tool="true" visible="true" weight="0.32831326" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49217936" weight="0.32831326" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947864" weight="0.3990964" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,132 +456,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodeJS/http.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodeJS/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodeJS/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular/helloWorld-angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="3" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular/helloWorld-angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular/helloWorld-angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular/helloWorld-angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular/helloWorld-angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular/angular.min.js" />
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="1114" column="4" lean-forward="false" selection-start-line="1114" selection-start-column="4" selection-end-line="1114" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///media/thor/Matheus/Matheus/AngularJS/learnJS.html" />
-    <entry file="file://$PROJECT_DIR$/testeAngular/helloWorld-angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/AngularJS_backend.html" />
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/page.js" />
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/router.js" />
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/http.js" />
-    <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/css/app.css" />
-    <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/css/ui.css" />
-    <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/config/routeConfig.js" />
-    <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/config/serialGeneratorConfig.js" />
-    <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/controllers/detalhesContatoCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/controllers/listaTelefonicaCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/controllers/novoContatoCtrl.js" />
-    <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/directives/uiAlertDirective.js" />
-    <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/directives/uiDateDirective.js" />
-    <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/filters/ellipsisFilter.js" />
     <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/filters/nameFilter.js" />
     <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/services/contatosAPIService.js" />
     <entry file="file://$PROJECT_DIR$/AngularJS_14_Single_Page_Application/js/services/operadorasAPIService.js" />
@@ -474,83 +465,146 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1422">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/angular/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular/helloWorld-angular.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="3332" column="9" selection-start-line="3332" selection-start-column="9" selection-end-line="3332" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/directives/uiAccordionDirective.js" />
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/directives/uiDateDirective.js" />
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/detalheContatoFisico.html" />
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeJS/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeJS/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1150">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeJS/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-614">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testeAngular_2/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-758">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/css/ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/config/interceptorsConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/controllers/appCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="15" />
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaJuridicoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/controllers/novoContatoJuridicoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" selection-start-column="57" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testeAngular_2/js/filters/nameFilter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/angular/angular.js">
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/interceptors/errorInterceptor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="2505" column="10" lean-forward="false" selection-start-line="2505" selection-start-column="10" selection-end-line="2505" selection-end-column="10" />
-          <folding>
-            <marker date="1517577204000" expanded="true" signature="767219:767305" ph="..." />
-            <marker date="1517577204000" expanded="true" signature="767448:767569" ph="{...}" />
-            <marker date="1517577204000" expanded="true" signature="773779:773993" ph="..." />
-            <marker date="1517577204000" expanded="true" signature="773889:773977" ph="..." />
-            <marker date="1517577204000" expanded="true" signature="774315:774541" ph="..." />
-            <marker date="1517577204000" expanded="true" signature="774431:774525" ph="..." />
-            <marker date="1517577204000" expanded="true" signature="774667:774905" ph="{...}" />
-            <marker date="1517577204000" expanded="true" signature="774765:774894" ph="{...}" />
-            <marker date="1517577204000" expanded="true" signature="774806:774881" ph="{...}" />
-            <marker date="1517577204000" expanded="true" signature="774993:775313" ph="{...}" />
-            <marker date="1517577204000" expanded="true" signature="775413:775621" ph="{...}" />
-            <marker date="1517577204000" expanded="true" signature="775702:775968" ph="{...}" />
-          </folding>
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/angular/package.json">
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/interceptors/loadingInterceptor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="243">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/services/contatosFisicoAPIService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="20">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/index.html">
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/services/contatosJuridicoAPIService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="31" column="72" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="72" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeJS/page.js">
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/services/operadorasAPIService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodeJS/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
+        <state>
+          <caret column="74" selection-start-column="74" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -558,47 +612,141 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/services/contatosAPIService.js">
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/accordion.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/alert.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/error.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="18">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/services/operadorasAPIService.js">
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/contatosFisico.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="74" lean-forward="false" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
-          <folding />
+        <state relative-caret-position="630">
+          <caret line="35" column="73" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaCtrl.js">
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/controllers/detalhesContatoJuridicoCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="18">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/contatosJuridico.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/detalheContatoJuridico.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/config/routeConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="23323" selection-start-line="23323" selection-end-line="23323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/controllers/listaTelefonicaFisicoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/controllers/detalhesContatoFisicoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/controllers/novoContatoFisicoCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/lib/angular-input-masks/src/br/cep/cep.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testeAngular_2/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
+        <state>
+          <caret column="63" lean-forward="true" selection-start-column="63" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeJS/http.js">
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/detalheContatoFisico.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/interceptors/timestampInterceptors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/modules/ui/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="56" column="2" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/telaInicial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/novoContatoJuridico.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeAngular_2/js/view/novoContatoFisico.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>

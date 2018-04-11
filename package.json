@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.9",
+    "angular-input-masks": "^4.1.0",
     "angular-route": "^1.6.9"
   }
 }

@@ -17,7 +17,7 @@
         </tr>
         <tr ng-class="{'selecionado negrito': contato.selecionado}" ng-repeat="contato in contatos | filter: Busca | orderBy: criterioDeOrdenacao:direcaoDaOrdenacao">
             <td><input type="checkbox" ng-model="contato.selecionado"/></td>
-            <td><a href="#!/detalheContato/{{contato.id}}">{{contato.nome}}</a></td>
+            <td><a href="#!/detalheContatoJuridico/{{contato.id}}">{{contato.nome}}</a></td>
             <td>{{contato.cnpj}}</td>
             <td>{{contato.telefone}}</td>
             <td>{{contato.operadoras.nome + "/" + contato.operadoras.codigo}}</td>
@@ -31,5 +31,6 @@
             <button class="btn btn-danger" ng-click="delContatos(contatos)" ng-disabled="!contatoSelecionado(contatos)">Deletar Contato</button>
         </ui-accordion>
     </ui-accordions>
+    <a class="btn btn-block btn-primary" href="#!/telaInicial">Voltar</a>
     <!--<input class="form-control-range" type="submit" ng-click="addContatos(contato)" value="Adicionar">-->
 </div>

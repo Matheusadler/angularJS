@@ -33,9 +33,8 @@ angular.module("learnJS").controller("listaTelefonicaFisicoCtrl", function ($sco
             });
         });
     };
-    var counter = 0;
+
     $scope.contatoSelecionado = function (contatos) {
-        console.log(counter++);
         return contatos.some(function (contato) {
             return contato.selecionado;
         });
