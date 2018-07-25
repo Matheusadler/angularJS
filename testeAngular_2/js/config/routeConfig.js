@@ -1,4 +1,8 @@
 angular.module("learnJS").config(function ($routeProvider) {
+    $routeProvider.when("/signin", {
+        templateUrl: "js/view/signin.html",
+        controller: "appCtrl"
+    });
     $routeProvider.when("/telaInicial", {
         templateUrl: "js/view/telaInicial.html",
         controller: "appCtrl"
@@ -42,5 +46,5 @@ angular.module("learnJS").config(function ($routeProvider) {
         }
 
     });
-    $routeProvider.otherwise({redirectTo: "/telaInicial"});
+    $routeProvider.otherwise({redirectTo: "/signin"});
 });
